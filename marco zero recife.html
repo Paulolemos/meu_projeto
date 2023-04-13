@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Campanha de vacinação Animal</title>   
+   <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/deolho.png" />
+
+
+
+
+    <style type="text/css">
+      /*Media query*/
+@media (max-width: 820px) {
+  .col-smart-8{
+  width: 100%;
+  align-content: center;
+
+
+  }
+  .container{align-items: center;}
+  .paragrafo{
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  min-width: 80%;
+
+    }
+    img{
+	max-width:100%;
+  height:auto;
+
+}
+  .col-smart-4{
+  display: none;
+  }
+  }
+
+
+/*Titulos*/
+h1{text-align: center; padding-top: 3%; padding-bottom: 2%;}
+h2{text-align: left; margin-bottom: 2%;}
+h5{color: red; font-size: 20px; text-align:  center;}
+h4{font-size: 20px;}
+h6{font-size: 20px;
+  text-align: center;
+}
+/*Imagens*/
+.polio{
+  float: left;
+}
+.metavacina{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.banner{
+  text-align: center;
+  margin-bottom: 5%;
+
+
+}
+
+.bonecos{
+  max-width: 100%;
+  min-width: 20%;
+}
+
+.sus1{
+  text-align: center;
+  font-size: 20px;
+  margin-right: 15%;
+}
+
+.diad{float: right;}
+
+.gradient-pattern {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 320px;
+  height: 320px;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,0) 79px, rgb(171,206,212) 79px, rgb(171,206,212) 81px, rgba(0,0,0,0) 81px), -webkit-linear-gradient(90deg, rgb(238,238,238) 0.1em, rgba(0,0,0,0) 0.1em), rgb(255, 255, 255);
+  background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 79px, rgb(171,206,212) 79px, rgb(171,206,212) 81px, rgba(0,0,0,0) 81px), -moz-linear-gradient(0deg, rgb(238,238,238) 0.1em, rgba(0,0,0,0) 0.1em), rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 79px, rgb(171,206,212) 79px, rgb(171,206,212) 81px, rgba(0,0,0,0) 81px), linear-gradient(0deg, rgb(238,238,238) 0.1em, rgba(0,0,0,0) 0.1em), rgb(255, 255, 255);
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 100% 1.2em;
+  background-size: 100% 1.2em;
+}
+
+/*Layout*/
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+
+body{
+  background: #f6f6f6;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+/*Paragrafo*/
+.paragrafo{
+  font: normal 16px/2 "Lucida sans unicode", "Lucida Grande", sans-serif;
+  color: #333333;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+/*Cabeçalho*/
+.cabeçalho{
+  background-color: #003366;
+  border-bottom:12px solid #3062b3;
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  text-align:center;
+
+}
+
+/*Conteudo*/
+.container{
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 1320px;
+  width: 100%;
+}
+[class*='col-']{
+  float: left;
+  min-height: 1px;
+  width: 100%;
+}
+.cont{
+  background: #f6f6f6;
+  border-radius: 3px;
+  margin: 10px;
+  padding: .5em;
+  text-align: justify;
+}
+
+  table, td, th, tfoot {border:solid 1px #000; padding:5px;}
+
+
+/*Linhas*/
+.row:before,.row:after,.container:before,.container:after{
+  content: " ";
+  display: table;
+}
+.row:after, .container:after{
+  clear: both;
+}
+
+/*colunas*/
+.col-smart-8{
+  width: 70%;
+}
+.col-smart-4{
+  width: 30%;
+  text-align: center;
+
+}
+
+
+/*Rodapé*/
+.footer{
+  display:block;
+  width:100%;
+  bottom:0vh;
+  left:0;
+  top: 0;
+  text-align:center;
+  background-color: #3062b3;
+  border-top: 7px solid #224276;
+  margin:0;
+  padding: 0;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3062b3;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #3062b3;
+    color: white;
+}
+.fa-mobile-phone{
+    background: #3062b3;
+    color: white;
+
+}
+
+.logofooter{
+  text-align: center;
+  margin-top: 5px;
+
+}
+#box-toggle {
+  width:500px;
+  margin:0 auto;
+  text-align:justify;
+  font:12px/1.4 Arial, Helvetica, sans-serif;
+
+  padding-right: 5%;
+  padding-bottom: 10%;
+
+  }
+#box-toggle .tgl {margin-bottom:30px;}
+#box-toggle span {
+  display:block;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:14px;
+  color:#3062b3;
+  margin-top:3px;
+  margin-bottom: 5px;
+
+
+  }
+.r1 {
+  font-size:  15px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #3062b3;
+  padding: 1%;
+
+}
+
+.r2{
+
+  text-align: right;
+  margin-left: 10%;
+
+
+}
+.r3{font-size: 15px;font-weight: bold;}
+
+ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+ul li a {
+  padding: 2px 10px;
+
+
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+      
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="cabeçalho">
+      <div class="imgcabeçalho">
+        <img src="./recife1.jpg" width="350" height="100" alt="">
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-smart-8">
+        <div class="cont">
+          <h1>Marco Zero Recife-PE</h1>
+            <div class="metavacina">
+              <figure>
+                <img src="./recife2.jpg" width="500" height="400">
+              </figure>
+
+
+            </div>
+
+          <div class="paragrafo">
+
+            <p>
+              Como surgiu o Marco Zero do Recife?
+              A popularização do nome Marco Zero aconteceu desde 1938,
+               devido à instalação do símbolo geográfico na parte central 
+               da praça. Ele foi uma doação do Automóvel Clube de Pernambuco.
+                Além disso, há nela uma estátua de bronze de 2,80 metros,
+                 de autoria do escultor francês Félix Charpentier.
+
+            </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-smart-4">
+        <div class="cont">
+          
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer>
+        <div class="logofooter">
+          <img src="./recife1.jpg" width="50" height="50">
+       
+      </footer>
+    </div>  
+</body>
+</html>
